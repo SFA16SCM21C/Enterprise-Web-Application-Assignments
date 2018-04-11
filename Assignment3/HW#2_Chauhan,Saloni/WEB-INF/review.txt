@@ -1,0 +1,15 @@
+Product Name: Apple Series Watch 2
+Product Price: 299.0
+Product Category: watch
+Retailer Name: SmartPortables
+Retailer Zip: 60616
+Retailer City: Chicago
+Retailer State: IL
+Manufacturer Name: Sony 
+Reviewed By: salcha
+Age: 23
+Gender: Female
+Occupation: Student
+Rating: 4.5
+Date: 23/10
+Comments: This product is good.

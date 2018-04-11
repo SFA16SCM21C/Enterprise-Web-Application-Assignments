@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html dir="ltr" xmlns:og="&quot;http://ogp.me/ns#&quot;" class="js" lang="en"><head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="twitter:image:height" content="500">
+<meta name="twitter:image:width" content="500">
+<meta name="twitter:url" content="https://dev.twitter.com/overview/api">
+<link href="https://abs.twimg.com/favicons/favicon.ico" rel="shortcut icon" type="image/x-icon">
+<meta name="twitter:image" content="https://pbs.twimg.com/profile_images/2284174872/7df3h38zabcvjylnyfe3.png">
+<meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport">
+<script src="API%20Overview%20_%20Twitter%20Developers_files/analytics.js" async=""></script><script type="application/json" id="drupal-settings">{"basePath":"\/","pathPrefix":"","ajaxPageState":{"theme":"gazebo_dev","theme_token":"_bImPv1rPLzGWT0wWADK4_OSdWgs1RqK-Gj3T5H4qvg"},"analyticsSettings":{"google":{"accounts":["UA-30775-44","UA-30775-16"],"options":{"customVars":{"dimension2":"2"},"customUrl":"","trackerUrl":"https:\/\/g.twimg.com\/googleanalytics\/analytics.js","domains":["dev.twitter.com"],"cross_domains":[],"displayAdvertisingFeatures":true}},"scribe":{"client":"gazebo"},"trackingPixel":{"pixel_ids":[]},"bing":false}}</script><meta name="google-site-verification" content="DsylEvTL7j64tY0IHBWbMN6pUvvKMIRl8usLs1sn2XQ">
+<meta content="on" name="twitter:widgets:new-embed-design">
+<meta content="on" name="twitter:widgets:csp">
+<meta name="og:url" content="https://dev.twitter.com/overview/api">
+<meta name="og:image" content="https://pbs.twimg.com/profile_images/2284174872/7df3h38zabcvjylnyfe3.png">
+<meta name="og:description" content="Here are some resources that will help you understand the basics of all our APIs. If you haven’t already, make sure that you have familiarized yourself with the Rules of the Road. Check out the OAuth section to learn more about how we do authentication and authorization.
+
+Platform Objects
+There are four main “platform objects” that you’ll encounter in the API: Tweets, Users, Entities (see also Entities in Objects), and Places. Check them out to see the anatomy of these objects, so that you know what your code should expect.">
+<meta name="og:title" content="API Overview">
+<meta name="description" content="Here are some resources that will help you understand the basics of all our APIs. If you haven’t already, make sure that you have familiarized yourself with the Rules of the Road. Check out the OAuth section to learn more about how we do authentication and authorization.
+
+Platform Objects
+There are four main “platform objects” that you’ll encounter in the API: Tweets, Users, Entities (see also Entities in Objects), and Places. Check them out to see the anatomy of these objects, so that you know what your code should expect.">
+<link rel="shortlink" href="https://dev.twitter.com/node/583">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:description" content="Here are some resources that will help you understand the basics of all our APIs. If you haven’t already, make sure that you have familiarized yourself with the Rules of the Road. Check out the OAuth section to learn more about how we do authentication and authorization.
+
+Platform Objects
+There are four main “platform objects” that you’ll encounter in the API: Tweets, Users, Entities (see also Entities in Objects), and Places. Check them out to see the anatomy of these objects, so that you know what your code should expect.">
+<meta name="og:site_name" content="Twitter Developers">
+<link rel="canonical" href="https://dev.twitter.com/overview/api">
+<meta name="twitter:title" content="API Overview">
+<meta name="og:type" content="article">
+
+    <title>API Overview | Twitter Developers</title>
+    <link type="text/css" rel="stylesheet" href="API%20Overview%20_%20Twitter%20Developers_files/css_l-EExnVBg6gX9ZXBy7Hp7ZKPfjdQIsq_V7-A_YyfL9w.css" media="all">
+<link type="text/css" rel="stylesheet" href="API%20Overview%20_%20Twitter%20Developers_files/css_Y_rYp5Zp2ETqQBWJcbCTJb03omhV0osaOMslZ_927ZE.css" media="all">
+<link type="text/css" rel="stylesheet" href="API%20Overview%20_%20Twitter%20Developers_files/gotham-narrow-v3.css" media="all">
+<link type="text/css" rel="stylesheet" href="API%20Overview%20_%20Twitter%20Developers_files/css_h9Ejbo3wN627M1j1FzzU5YGskFkdCjgQw_dQM3nwmQA.css" media="all">
+<link type="text/css" rel="stylesheet" href="API%20Overview%20_%20Twitter%20Developers_files/css_QbRrbDS8ozqtUdO5FClXyPhtxbNP7Sa5nvogFD64V68.css" media="all">
+
+    <script type="text/javascript" src="API%20Overview%20_%20Twitter%20Developers_files/js_ggO7VECIEeHot9CP37QkHT7zA0jt8KIAYXiOqvJdEqU.js"></script>
+<script type="text/javascript" src="API%20Overview%20_%20Twitter%20Developers_files/js_khfOAWT2z7QE7s9bNkw5afNKRe9w8PMP6gthYSvApG0.js"></script>
+<script type="text/javascript" src="API%20Overview%20_%20Twitter%20Developers_files/js_GwOn7zsvXJwUDS7-VhiFJrVpcBnFBk6AYl2sYoqLJCI.js"></script>
+<script type="text/javascript" src="API%20Overview%20_%20Twitter%20Developers_files/js_aX2iu8pTP4yy32AfhA-H8KZMM5IiCCP8Yx-eZ84lY6Q.js"></script>
+<script type="text/javascript" src="API%20Overview%20_%20Twitter%20Developers_files/js_Ykeg4PlP-G4rQQELDhsAuT35PbEAJ2e4KmhevqSWrJg.js"></script>
+<script type="text/javascript" src="API%20Overview%20_%20Twitter%20Developers_files/js_BsD1J0VYO_7sNrnLQ25AQi_96pz4TWChe8TDkeZN9vs.js"></script>
+<script type="text/javascript" src="API%20Overview%20_%20Twitter%20Developers_files/adca7e6ab1c7f1559e86028a530b7f8c.js"></script>
+
+  </head>
+
+  <body class="html not-front logged-in one-sidebar sidebar-first page-node page-node- page-node-583 node-type-documentation i18n-en">
+    <div id="skip-link">
+      <a href="#main-content" class="element-invisible element-focusable">Skip to main content</a>
+    </div>
+    
+    <div class="Page Page--canopy is-narrow Page--basicStyles  Page--dev  Page--devDocumentation">
+    <div class="Navigation Navigation--global is-loaded">
+  <div class="Navigation-inner">
+    <ul class="Navigation-inner-list Navigation-inner-list--breadcrumb"><li class="NavigationItem NavigationItem--main NavigationItem--breadcrumb"><a class="NavigationItem-link" href="https://dev.twitter.com/home"></a></li><li data-is-clickable="false" class="NavigationItem NavigationItem--main NavigationItem--breadcrumb NavigationItem--withChildren"><a class="NavigationItem-link" href="https://dev.twitter.com/home">Developers</a><ul class="Navigation Navigation--sub"><li class="NavigationItem NavigationItem--sub"><a class="NavigationItem-link" href="https://dev.twitter.com/overview">Documentation</a></li><li class="NavigationItem NavigationItem--sub"><a class="NavigationItem-link" href="https://dev.twitter.com/discussions">Forums</a></li><li class="NavigationItem NavigationItem--sub"><a class="NavigationItem-link" href="https://dev.twitter.com/overview/events">Events</a></li><li class="NavigationItem NavigationItem--sub"><a class="NavigationItem-link" href="https://dev.twitter.com/blog">Blog</a></li><li class="NavigationItem NavigationItem--sub"><a class="NavigationItem-link" href="https://dev.twitter.com/solutions">Solutions</a></li></ul></li><li data-is-clickable="false" class="NavigationItem NavigationItem--main NavigationItem--breadcrumb NavigationItem--withChildren"><a class="NavigationItem-link" href="https://dev.twitter.com/overview">Documentation</a><ul class="Navigation Navigation--sub"><li class="NavigationItem NavigationItem--sub"><a class="NavigationItem-link" href="https://dev.twitter.com/overview/documentation">Overview</a></li><li class="NavigationItem NavigationItem--sub"><a class="NavigationItem-link" href="https://dev.twitter.com/fabric/overview">Fabric</a></li><li class="NavigationItem NavigationItem--sub"><a class="NavigationItem-link" href="https://dev.twitter.com/web/overview">Twitter for Websites</a></li><li class="NavigationItem NavigationItem--sub"><a class="NavigationItem-link" href="https://dev.twitter.com/cards/overview">Cards</a></li><li class="NavigationItem NavigationItem--sub"><a class="NavigationItem-link" href="https://dev.twitter.com/oauth">OAuth</a></li><li class="NavigationItem NavigationItem--sub"><a class="NavigationItem-link" href="https://dev.twitter.com/rest/public">REST APIs</a></li><li class="NavigationItem NavigationItem--sub"><a class="NavigationItem-link" href="https://dev.twitter.com/streaming/overview">Streaming APIs</a></li><li class="NavigationItem NavigationItem--sub"><a class="NavigationItem-link" href="https://dev.twitter.com/ads/overview">Ads APIs</a></li><li class="NavigationItem NavigationItem--sub"><a class="NavigationItem-link" href="https://dev.twitter.com/mopub">MoPub</a></li></ul></li><li class="NavigationItem NavigationItem--main NavigationItem--breadcrumb"><a class="NavigationItem-link" href="https://dev.twitter.com/overview/documentation">Overview</a></li></ul><ul class="Navigation-inner-list Navigation-inner-list--side Navigation-inner-list--user"><li data-is-clickable="false" class="NavigationItem NavigationItem--user NavigationItem--withChildren"><a class="NavigationItem-link" href=""><img class="NavigationItem--user-link-image" src="API%20Overview%20_%20Twitter%20Developers_files/default_profile_3_normal.png" alt="analytics4data"></a><ul class="Navigation Navigation--sub"><li class="NavigationItem NavigationItem--sub"><a class="NavigationItem-link" href="https://twitter.com/logout">Sign out</a></li><li class="NavigationItem NavigationItem--sub"><a class="NavigationItem-link" href="https://twitter.com/">Go to Twitter</a></li></ul></li></ul><ul class="Navigation-inner-list Navigation-inner-list--side Navigation-inner-item--language"><li data-is-clickable="false" class="NavigationItem NavigationItem--language NavigationItem--withChildren"><a class="NavigationItem-link" href="">English</a><ul class="Navigation Navigation--sub"><li class="NavigationItem NavigationItem--sub"><a class="NavigationItem-link" href="https://dev.twitter.com/overview/api?lang=zh-hans">简体中文</a></li><li class="NavigationItem NavigationItem--sub"><a class="NavigationItem-link" href="https://dev.twitter.com/overview/api?lang=zh-hant">繁體中文</a></li><li class="NavigationItem NavigationItem--sub"><a class="NavigationItem-link" href="https://dev.twitter.com/overview/api?lang=en">English</a></li><li class="NavigationItem NavigationItem--sub"><a class="NavigationItem-link" href="https://dev.twitter.com/overview/api?lang=fr">Français</a></li><li class="NavigationItem NavigationItem--sub"><a class="NavigationItem-link" href="https://dev.twitter.com/overview/api?lang=de">Deutsch</a></li><li class="NavigationItem NavigationItem--sub"><a class="NavigationItem-link" href="https://dev.twitter.com/overview/api?lang=ja">日本語</a></li><li class="NavigationItem NavigationItem--sub"><a class="NavigationItem-link" href="https://dev.twitter.com/overview/api?lang=ko">한국어</a></li><li class="NavigationItem NavigationItem--sub"><a class="NavigationItem-link" href="https://dev.twitter.com/overview/api?lang=pt">Português, Brasil</a></li><li class="NavigationItem NavigationItem--sub"><a class="NavigationItem-link" href="https://dev.twitter.com/overview/api?lang=es">Español</a></li></ul></li></ul><div class="Navigation-inner-item Navigation-inner-item--search"><form action="/" class="NavigationItem NavigationItem--search" method="get"><input name="search_block_form" placeholder="Search" class="NavigationItem-searchBox" type="text"><button class="NavigationItem-submitButton">Search</button></form></div>  </div>
+</div>
+<div class=" Hero is-narrow Hero--dev"><div class="Hero-wrap"></div></div><section><div class="PageLayout  is-narrow PageLayout--leftColumn Grid"><div class="PageLayout-wrap"><div class="PageLayout-column PageLayout-leftColumn Grid-cell u-size4of12 u-sm-sizeFill u-md-sizeFill is-collapsible is-collapsed"><div class="PageLayout-column-collapseToggle"></div><aside class="SidebarFirst"><div class="region region-sidebar-first"><div class="SystemBlock"><div class="menu-block-wrapper menu-block-feature-dev-docs-menu menu-name-main-menu parent-mlid-0 menu-level-2"><ul class="menu"><li class="first collapsed menu-mlid-1132"><a href="https://dev.twitter.com/overview/documentation">Documentation</a></li><li class="collapsed menu-mlid-525"><a href="https://dev.twitter.com/overview/general">Best Practices</a></li><li class="expanded active-trail active menu-mlid-529"><a href="https://dev.twitter.com/overview/api" class="active-trail active">API Overview</a><ul class="menu"><li class="first leaf menu-mlid-1100"><a href="https://dev.twitter.com/overview/api/users">Object: Users</a></li><li class="leaf menu-mlid-1099"><a href="https://dev.twitter.com/overview/api/tweets">Object: Tweets</a></li><li class="leaf menu-mlid-1101"><a href="https://dev.twitter.com/overview/api/entities">Object: Entities</a></li><li class="leaf menu-mlid-531"><a href="https://dev.twitter.com/overview/api/entities-in-twitter-objects">Object: Entities in Objects</a></li><li class="leaf menu-mlid-1102"><a href="https://dev.twitter.com/overview/api/places">Object: Places</a></li><li class="leaf menu-mlid-547"><a href="https://dev.twitter.com/overview/api/twitter-ids-json-and-snowflake">Twitter IDs</a></li><li class="leaf menu-mlid-576"><a href="https://dev.twitter.com/overview/api/ssl">Connecting to Twitter API using SSL</a></li><li class="leaf menu-mlid-591"><a href="https://dev.twitter.com/overview/api/cursoring">Using cursors to navigate collections</a></li><li class="leaf menu-mlid-532"><a href="https://dev.twitter.com/overview/api/response-codes">Error Codes &amp; Responses</a></li><li class="last leaf menu-mlid-530"><a href="https://dev.twitter.com/overview/api/twitter-libraries">Twitter Libraries</a></li></ul></li><li class="leaf menu-mlid-1141"><a href="https://dev.twitter.com/overview/status" target="_blank">API Status</a></li><li class="leaf menu-mlid-1370"><a href="https://dev.twitter.com/overview/events">Events</a></li><li class="collapsed menu-mlid-1212"><a href="https://dev.twitter.com/overview/case-studies">Case Studies</a></li><li class="leaf menu-mlid-1143"><a href="https://apps.twitter.com/">Manage My Apps</a></li><li class="last collapsed menu-mlid-592"><a href="https://dev.twitter.com/overview/terms">Terms of Use</a></li></ul></div></div></div></aside></div><div class="PageLayout-content Grid-cell u-size8of12 u-sm-sizeFill u-md-sizeFill"><article class="Content" id="main-content"><header><h1>API Overview</h1></header><div class="region region-content"><div class="SystemBlock"><div id="Node--583" class="  Node node node-documentation clearfix  Node--documentation "><div class="Node-content"><div class=" Field FieldName-body FieldType-textWithSummary FieldLabel-hidden "><div class="Field-items"><div class="Field-items-item even "><p>Here
+ are some resources that will help you understand the basics of all our 
+APIs. If you haven’t already, make sure that you have familiarized 
+yourself with the <a href="https://dev.twitter.com/overview/terms/rules-of-the-road">Developer Rules of the Road</a>. Check out the <a href="https://dev.twitter.com/oauth">OAuth</a> section to learn more about how we do authentication and authorization.</p><h2>API Objects</h2><p>There are four main “objects” that you’ll encounter in the API: <a href="https://dev.twitter.com/overview/api/tweets">Tweets</a>, <a href="https://dev.twitter.com/overview/api/users">Users</a>, <a href="https://dev.twitter.com/overview/api/entities">Entities</a> (see also <a href="https://dev.twitter.com/overview/api/entities-in-twitter-objects">Entities in Objects</a>), and <a href="https://dev.twitter.com/overview/api/places">Places</a>. See the anatomy of these objects, and learn about properties like <a href="https://dev.twitter.com/overview/api/twitter-ids-json-and-snowflake">Twitter IDs</a> or <a href="https://dev.twitter.com/overview/api/places#attributes">Place Attributes</a> to know what to expect.</p><h2>Connecting to and navigating around the APIs</h2><p>Check out our best practices around&nbsp;<a href="https://dev.twitter.com/overview/api/ssl">Connecting to Twitter API using SSL</a>,&nbsp;<a href="https://dev.twitter.com/overview/api/twitter-libraries"></a><a href="https://dev.twitter.com/overview/api/cursoring">Using cursors to navigate collections</a>&nbsp;and <a href="https://dev.twitter.com/overview/api/response-codes">Error Codes &amp; Responses </a>to learn how to most effectively interact with our APIs.</p><h2>Twitter Libraries</h2><p>Ready to get started? Check out our collections of <a href="https://dev.twitter.com/overview/api/twitter-libraries">Twitter Libraries</a> — spanning everything from Java to Ruby to Objective-C — to help you get started. &nbsp;<a href="https://dev.twitter.com/overview/api/twitter-ids-json-and-snowflake"><br></a></p></div></div></div></div></div></div></div></article></div></div></div></section><footer class="Footer  is-narrow Footer--primary"><div class="Footer-wrap"></div></footer><footer class="Footer  is-narrow Footer--secondary"><div class="Footer-wrap"><div class="region region-footer-sub"><div class="SystemBlock"><div class="Prefooter Grid"><div class="Prefooter-links Grid-cell u-size4of6 u-sm-sizeFull u-md-sizeFull"><div class="Prefooter-links-column Grid-cell u-size1of6 u-sm-size1of3"><div class="Prefooter-links-column-title">Solutions</div><ul class="Prefooter-links-column-sublinks"><li class="Prefooter-links-column-sublinks-item"><a href="https://dev.twitter.com/solutions/customer-service">Customer Service</a></li><li class="Prefooter-links-column-sublinks-item"><a href="https://dev.twitter.com/solutions/best-apps">Build Great Apps</a></li><li class="Prefooter-links-column-sublinks-item"><a href="https://dev.twitter.com/solutions/tell-great-stories">Tell Great Stories</a></li></ul></div><div class="Prefooter-links-column Grid-cell u-size1of6 u-sm-size1of3"><div class="Prefooter-links-column-title">Fabric</div><ul class="Prefooter-links-column-sublinks"><li class="Prefooter-links-column-sublinks-item"><a href="https://dev.twitter.com/products/digits">Digits</a></li><li class="Prefooter-links-column-sublinks-item"><a href="https://dev.twitter.com/products/signin">Sign in with Twitter</a></li><li class="Prefooter-links-column-sublinks-item"><a href="https://dev.twitter.com/products/native-social">Twitter Social</a></li><li class="Prefooter-links-column-sublinks-item"><a href="https://dev.twitter.com/products/crashlytics">Crashlytics</a></li><li class="Prefooter-links-column-sublinks-item"><a href="https://dev.twitter.com/products/answers">Answers by Crashlytics</a></li><li class="Prefooter-links-column-sublinks-item"><a href="https://dev.twitter.com/products/beta">Beta by Crashlytics</a></li><li class="Prefooter-links-column-sublinks-item"><a href="https://dev.twitter.com/products/mopub">MoPub</a></li></ul></div><div class="Prefooter-links-column Grid-cell u-size1of6 u-sm-size1of3"><div class="Prefooter-links-column-title">Data &amp; Web</div><ul class="Prefooter-links-column-sublinks"><li class="Prefooter-links-column-sublinks-item"><a href="http://gnip.com/">Gnip</a></li><li class="Prefooter-links-column-sublinks-item"><a href="https://dev.twitter.com/rest/public">REST APIs</a></li><li class="Prefooter-links-column-sublinks-item"><a href="https://dev.twitter.com/streaming/overview">Streaming APIs</a></li><li class="Prefooter-links-column-sublinks-item"><a href="https://dev.twitter.com/products/web">Twitter for Websites</a></li></ul></div><div class="Prefooter-links-column Grid-cell u-size1of6 u-sm-size1of3"><div class="Prefooter-links-column-title">Resources</div><ul class="Prefooter-links-column-sublinks"><li class="Prefooter-links-column-sublinks-item"><a href="https://dev.twitter.com/overview/documentation">Documentation</a></li><li class="Prefooter-links-column-sublinks-item"><a href="https://twittercommunity.com/">Forums</a></li><li class="Prefooter-links-column-sublinks-item"><a href="https://blog.twitter.com/developer">Blog</a></li><li class="Prefooter-links-column-sublinks-item"><a href="https://dev.twitter.com/overview/case-studies">Case Studies</a></li><li class="Prefooter-links-column-sublinks-item"><a href="http://dev.twitter.com/overview/terms">API Terms</a></li><li class="Prefooter-links-column-sublinks-item"><a href="https://support.twitter.com/forms/platform">Policy Support</a></li></ul></div><div class="Prefooter-links-column Grid-cell u-size1of6 u-sm-size1of3"><div class="Prefooter-links-column-title">Programs</div><ul class="Prefooter-links-column-sublinks"><li class="Prefooter-links-column-sublinks-item"><a href="https://dev.twitter.com/overview/general/official-partner-program">Official Partner</a></li><li class="Prefooter-links-column-sublinks-item"><a href="https://dev.twitter.com/overview/events">Events</a></li><li class="Prefooter-links-column-sublinks-item"><a href="https://dev.twitter.com/flight/2014">Flight 2014</a></li></ul></div><div class="Prefooter-links-column Grid-cell u-size1of6 u-sm-size1of3"><div class="Prefooter-links-column-title">Tools</div><ul class="Prefooter-links-column-sublinks"><li class="Prefooter-links-column-sublinks-item"><a href="http://dev.twitter.com/overview/status">API Status</a></li><li class="Prefooter-links-column-sublinks-item"><a href="http://dev.twitter.com/rest/tools/console">API Console</a></li><li class="Prefooter-links-column-sublinks-item"><a href="https://apps.twitter.com/">Manage Your Apps</a></li><li class="Prefooter-links-column-sublinks-item"><a href="https://cards-dev.twitter.com/validator">Cards Validator</a></li></ul></div></div><div class="Prefooter-info Grid-cell u-size2of6 u-sm-sizeFull u-md-sizeFull"><a class="Prefooter-info-subscribeLink" href="https://dev.twitter.com/overview/newsletter-signup">
+      Subscribe to Our Newsletter    </a><div class="Prefooter-info-copyright"><p>Copyright © 2015 Twitter, Inc.</p><p class="Prefooter-info-copyright-reserved">All Rights Reserved</p></div></div></div></div></div></div></footer><footer class="Footer Footer--global">
+  <nav class="Footer-navigation">
+    <ul class="Footer-navigation-items">
+              <li class="Footer-navigation-item">
+          <a href="https://about.twitter.com/" class="FooterItem">About</a>
+        </li>
+              <li class="Footer-navigation-item">
+          <a href="https://about.twitter.com/company" class="FooterItem">Company</a>
+        </li>
+              <li class="Footer-navigation-item">
+          <a href="https://blog.twitter.com/" class="FooterItem">Blog</a>
+        </li>
+              <li class="Footer-navigation-item">
+          <a href="https://support.twitter.com/" class="FooterItem">Help</a>
+        </li>
+              <li class="Footer-navigation-item">
+          <a href="http://status.twitter.com/" class="FooterItem">Status</a>
+        </li>
+              <li class="Footer-navigation-item">
+          <a href="https://about.twitter.com/careers" class="FooterItem">Jobs</a>
+        </li>
+              <li class="Footer-navigation-item">
+          <a href="https://twitter.com/tos" class="FooterItem">Terms</a>
+        </li>
+              <li class="Footer-navigation-item">
+          <a href="https://twitter.com/privacy" class="FooterItem">Privacy</a>
+        </li>
+              <li class="Footer-navigation-item">
+          <a href="https://support.twitter.com/articles/20170514" class="FooterItem">Cookies</a>
+        </li>
+              <li class="Footer-navigation-item">
+          <a href="https://support.twitter.com/articles/20170451" class="FooterItem">Ads info</a>
+        </li>
+              <li class="Footer-navigation-item">
+          <a href="https://about.twitter.com/company/brand-assets" class="FooterItem">Brand</a>
+        </li>
+              <li class="Footer-navigation-item">
+          <a href="https://ads.twitter.com/start?ref=gl-tw-tw-twitter-advertise" class="FooterItem">Advertise</a>
+        </li>
+              <li class="Footer-navigation-item">
+          <a href="https://business.twitter.com/" class="FooterItem">Businesses</a>
+        </li>
+              <li class="Footer-navigation-item">
+          <a href="https://media.twitter.com/" class="FooterItem">Media</a>
+        </li>
+              <li class="Footer-navigation-item">
+          <a href="https://dev.twitter.com/" class="FooterItem">Developers</a>
+        </li>
+          </ul>
+  </nav>
+  <div class="Footer-copyright">
+    © 2015 Twitter, Inc.
+  </div>
+</footer>
+</div>
+
+    <script type="text/javascript" src="API%20Overview%20_%20Twitter%20Developers_files/js_Rk5YIkK6m2gKTGH-GrMu0pM_PlMKXnI0ktQUgXw1XgA.js"></script>
+<script type="text/javascript" src="API%20Overview%20_%20Twitter%20Developers_files/widgets.js"></script>
+<script type="text/javascript" src="API%20Overview%20_%20Twitter%20Developers_files/js_WRH7WYq-FQCJT26vr-LZAlWu_t37jPSQ1Sws4gdMfko.js"></script>
+<script type="text/javascript" src="API%20Overview%20_%20Twitter%20Developers_files/oct.js"></script>
+<script type="text/javascript" src="API%20Overview%20_%20Twitter%20Developers_files/js_6yE-_uKeO7bidfCOj5hFbBaaInw0QU2U0ekyhBlHU9k.js"></script>
+
+  
+
+</body></html>

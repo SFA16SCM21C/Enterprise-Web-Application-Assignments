@@ -1,0 +1,20 @@
+Product id: 12
+Product Name: Laptop
+Reviewed By: Salcha
+Comments: I hate this product.
+Product id: 2
+Product Name: Fossil Gen 3 smart watch
+Reviewed By: Saloni Chauhan
+Comments: 
+Product id: 2
+Product Name: Fossil Gen 3 smart watch
+Reviewed By: Saloni Chauhan
+Comments: The product was damaged when the package was opened. Not recommended.
+Product id: 1212
+Product Name: Apple watch
+Reviewed By: salcha
+Comments: The watch was not good quality
+Product id: 23
+Product Name: speaker
+Reviewed By: Salcha
+Comments: This product is grat to use with. Good condition.

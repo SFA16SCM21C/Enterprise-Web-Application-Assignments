@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ProductCatalog>
+    <console id="001" retailer="GameSpeed">
+        <image>xbox1.jpg</image>
+        <name>XBOX1</name>
+        <condition>New</condition>
+        <price>399</price>
+        <accessories>
+            <accessory>XBOX controller</accessory>
+            <accessory>Turtle Beach Headset</accessory>
+        </accessories>
+    </console>
+    <console id="002" retailer="GameSpeed">
+        <image>xbox360.jpg</image>
+        <name>XBOX360</name>
+        <condition >Refurbished</condition>
+        <price>299</price>
+        <accessories>
+            <accessory>Speeding Wheel</accessory>
+            <accessory>Wireless Adapter</accessory>
+        </accessories>
+        </console>
+</ProductCatalog>

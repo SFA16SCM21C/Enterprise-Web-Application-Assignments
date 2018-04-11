@@ -1,0 +1,5 @@
+Firstname;Emailid;password
+rohan;rohanj.0606;ru541267
+akshay chauhan;akshay;1234
+nitesh;nitesh;1234
+saloni;salcha;1234

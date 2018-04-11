@@ -1,0 +1,8 @@
+Firstname;Emailid;password
+rohan;rohanj.0606;ru541267
+govind;govind01;1234
+amit;amit.ok;1234
+ruchi;ruchi.1410;1234
+nitesh;nitesh.011@gmail.com;nitesh
+saloni;salcha;1234
+akshay;ak799;2312

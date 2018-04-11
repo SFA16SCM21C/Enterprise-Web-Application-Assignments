@@ -1,0 +1,5 @@
+Product id:01;Product Name:Laptop;Order id:01
+Product id:1;Product Name:Apple Watch;Order id:1993
+Product id:12;Product Name:Apple Speaker Connector;Order id:1790
+Product id:12;Product Name:Speaker;Order id:815
+Product id:23;Product Name:watch;Order id:695

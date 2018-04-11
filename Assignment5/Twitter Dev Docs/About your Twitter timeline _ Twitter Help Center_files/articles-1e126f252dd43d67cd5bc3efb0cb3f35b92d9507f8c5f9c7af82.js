@@ -1,0 +1,1 @@
+define(["jquery","modules/shared/navigation","shared/common_behavior","articles/feedbacks","bootstrap"],function(o,a){"use strict";o(function(){var t=-50;a.scrollToAnchor(t),a.activateSmoothAnchors(o("body"),t),a.bindBackToTop(o("#back_to_top"))})});

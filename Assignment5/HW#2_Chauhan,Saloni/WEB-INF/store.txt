@@ -1,0 +1,4 @@
+Firstname;Emailid;password
+govind;govind01;1234
+nitesh;nitesh;1234
+saloni;salcha;1234
